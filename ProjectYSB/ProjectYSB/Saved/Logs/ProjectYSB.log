@@ -1388,3 +1388,53 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2023.12.02-01.15.31:851][  0]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
 [2023.12.02-01.15.31:851][  0]LogWorldPartition: Display: WorldPartition initialize started...
 [2023.12.02-01.15.31:851][  0]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.12.02-01.15.32:082][  0]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.02-01.15.32:082][  0]LogWorldPartition: Display: WorldPartition initialize took 229 ms
+[2023.12.02-01.15.32:085][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.02-01.15.32:086][  0]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.12.02-01.15.32:086][  0]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.12.02-01.15.32:092][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.12.02-01.15.32:092][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.02-01.15.32:093][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.257ms to complete.
+[2023.12.02-01.15.32:102][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.470
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: ================================================
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 1.60 GiB budget. Usage: 0.00%
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.12.02-01.15.32:102][  0]LogShaderCompilers: Display: ================================================
+[2023.12.02-01.15.32:657][  0]LogSlate: External Image Picker: DecompressImage failed
+[2023.12.02-01.15.32:770][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.12.02-01.15.32:770][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.12.02-01.15.32:770][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.12.02-01.15.32:770][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.12.02-01.15.32:770][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.12.02-01.15.32:784][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-01.15.32:794][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-01.15.32:804][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-01.15.32:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-01.15.32:931][  0]LogSlate: Took 0.000637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.02-01.15.32:934][  0]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.02-01.15.32:934][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.12.02-01.15.32:959][  0]LogViewport: Scene viewport resized to 3195x1904, mode Windowed.
+[2023.12.02-01.15.33:331][  0]LogStall: Startup...
+[2023.12.02-01.15.33:332][  0]LogStall: Startup complete.
+[2023.12.02-01.15.33:351][  0]LogLoad: (Engine Initialization) Total time: 19.72 seconds
+[2023.12.02-01.15.33:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.12.02-01.15.33:370][  0]AssetCheck: New page: Asset Save: P_Ambient_Dust
+[2023.12.02-01.15.33:370][  0]LogContentValidation: Display: Validating /Script/Engine.ParticleSystem /Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust
+[2023.12.02-01.15.33:378][  0]LogAssetRegistry: AssetRegistryGather time 4.6519s: AssetDataDiscovery 0.0414s, AssetDataGather 4.5715s, StoreResults 0.0390s.
+[2023.12.02-01.15.33:394][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2023.12.02-01.15.33:394][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.12.02-01.15.33:413][  0]LogSlate: Took 0.000833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.12.02-01.15.33:437][  0]LogSlate: Took 0.000654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.02-01.15.33:507][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2023.12.02-01.15.33:512][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.050721 secs
+[2023.12.02-01.15.33:538][  1]LogD3D12RHI: Cannot end block when stack is empty
+[2023.12.02-01.15.34:607][ 27]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 2.52s
+[2023.12.02-01.15.34:686][ 29]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
